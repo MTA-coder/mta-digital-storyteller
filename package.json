@@ -10,6 +10,7 @@
     "build:critical": "npm run build && node ./scripts/postbuild.js",
     "generate:sitemap": "node ./scripts/generate-sitemap.js",
     "generate:feed": "node ./scripts/generate-feed.js",
+    "generate:land-dots": "node ./scripts/generate-land-dots.cjs",
     "generate": "npm run generate:sitemap && npm run generate:feed",
     "lint": "eslint .",
     "test": "vitest run",
